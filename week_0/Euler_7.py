@@ -5,7 +5,7 @@ def prime_check(num):
     i = 2
 
     while num >= i:
-        if num%i==0:
+        if num % i==0:
             break
         i += 1
     
