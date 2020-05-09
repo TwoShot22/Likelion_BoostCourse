@@ -17,7 +17,6 @@ def lookandsay(char, current_count, line):
 
         return lookandsay(output, limit+1, line)
 
-
 if __name__ == '__main__':
     line = int(input("Enter Number Of line : "))
     char = "1"
